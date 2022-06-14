@@ -2262,7 +2262,7 @@ a {
 }
 
 .accordion-item .accordion-button.collapsed {
-  background: #f9f9f9;
+  background: #fff;
   font-weight: 400;
   box-shadow: none;
   font-family: "Inter", sans-serif;
@@ -2294,6 +2294,7 @@ a {
 .accordion-item .accordion-body {
   padding: 1.875rem 0;
   line-height: 1.75rem;
+  background-color: #F4F6F8;
 }
 
 .accordion-two .accordion-item {
@@ -5845,7 +5846,7 @@ Client CSS
 }
 
 .client-meta .client-review {
-  font-size: 1.375rem;
+  font-size: 16px;
   margin-left: 0.875rem;
 }
 
@@ -5854,7 +5855,7 @@ Client CSS
 }
 
 .client-meta .client-review-number {
-  font-size: 1.375rem;
+  font-size: 16px;
   margin-left: 0.875rem;
 }
 
@@ -23825,3 +23826,596 @@ Contact Page Two CSS
 }
 
 /*# sourceMappingURL=style.css.map */
+
+@font-face {
+  font-display: swap;
+  font-family: Modern Era;
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://www.refersion.com/staticassets/static/ModernEra-Regular-d87773acc5f97e5aeeb142f03f81d8eb.woff2) format("woff2"), url(https://www.refersion.com/staticassets/static/ModernEra-Regular-03dbdf5630aada25976bfdd30e806012.woff) format("woff"), url(https://www.refersion.com/staticassets/static/ModernEra-Regular-368382777179409c951afc01aefcb06b.ttf) format("truetype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Modern Era;
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://www.refersion.com/staticassets/static/ModernEra-Bold-740c2d8545574dfd4dab321d78374167.woff2) format("woff2"), url(https://www.refersion.com/staticassets/static/ModernEra-Bold-7ef311e2db7f4cff518bea8f835a1365.woff) format("woff"), url(https://www.refersion.com/staticassets/static/ModernEra-Bold-faba792bea5e17b2e73b97e451d85057.ttf) format("truetype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Modern Era;
+  font-style: normal;
+  font-weight: 800;
+  src: url(https://www.refersion.com/staticassets/static/ModernEra-ExtraBold-89357d1ac171d2cae58f399d09dc59ad.woff2) format("woff2"), url(https://www.refersion.com/staticassets/static/ModernEra-ExtraBold-247e2f6e34226b83dc94179e9e0c7e9e.woff) format("woff"), url(https://www.refersion.com/staticassets/static/ModernEra-ExtraBold-1a5da756d5325853b1e2fb097baf9cca.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: iconfont;
+  font-display: swap;
+  src: url("https://www.refersion.com/staticassets/static/iconfont-1b645aff6d386dbcbc21f5bd3b183229.ttf") format("woff2"), url("https://www.refersion.com/staticassets/static/iconfont-5aa7c75f00bcab37f6c8bb47444b3017.woff") format("woff"), url("https://www.refersion.com/staticassets/static/iconfont-1e7a2eb7cf0c818586b907f6a6cce55a.woff2") format("truetype");
+}
+
+@import url("https://fonts.googleapis.com/css?family=Poppins|Roboto");
+
+* {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.gaHyHR {
+  position: relative;
+}
+
+section {
+  display: block;
+}
+
+.hjCDjF {
+  position: relative;
+}
+
+main {
+  display: block;
+}
+
+.iDgKkF {
+  position: relative;
+  min-height: 100vh;
+}
+
+.epaTFY {
+  position: relative;
+  overflow: hidden;
+  padding-top: 92px;
+}
+
+[tabindex="-1"]:focus {
+  outline: 0px !important;
+}
+
+body {
+  margin: 0px;
+  font-family: "Modern Era", "Modern Era", Roboto, system, -apple-system, BlinkMacSystemFont, ".SFNSDisplay-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: rgb(7, 26, 43);
+  text-align: left;
+  background-color: rgb(255, 255, 255);
+  -webkit-font-smoothing: antialiased;
+}
+
+@media all {
+  body {
+    margin: 0;
+  }
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-family: sans-serif;
+  line-height: 1.15;
+  text-size-adjust: 100%;
+}
+
+:root {
+  --scale: 1;
+}
+
+@media (min-width: 1580px) {
+  :root {
+    --scale: 1.1;
+  }
+}
+
+:root {
+  --wp--preset--color--purple: #907aff;
+  --wp--preset--font-size--heading-1: 64px;
+}
+
+*,
+:before,
+:after {
+  box-sizing: border-box;
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--bs-gutter-x, 20px);
+  padding-right: var(--bs-gutter-x, 20px);
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 760px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 1060px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1580px) {
+  .container {
+    max-width: 1480px;
+  }
+}
+
+.wp-block-group {
+  box-sizing: border-box;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.swiper {
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.swiper-pointer-events {
+  touch-action: pan-y;
+}
+
+.swiper-autoheight {
+  height: auto;
+}
+
+h2 {
+  margin-top: 0px;
+  margin-bottom: 1.25rem;
+  font-weight: 800;
+  font-size: 3.25rem;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+.has-heading-1-font-size {
+  font-size: var(--wp--preset--font-size--heading-1);
+}
+
+h2 {
+  font-weight: 400;
+  line-height: 1.33;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: calc(1.45rem + 2.4vw);
+}
+
+@media (min-width: 1200px) {
+  h2 {
+    font-size: 3.25rem;
+  }
+}
+
+h2 {
+  font-weight: 800;
+  font-size: calc(1.45rem + 2.4vw) !important;
+  letter-spacing: -.02em;
+  line-height: 1.15;
+}
+
+@media (min-width: 1200px) {
+  h2 {
+    font-size: 3.25rem !important;
+  }
+}
+
+.has-heading-1-font-size {
+  font-size: calc(1.525rem + 3.3vw) !important;
+  letter-spacing: -.02em;
+  line-height: 1.18;
+}
+
+@media (min-width: 1200px) {
+  .has-heading-1-font-size {
+    font-size: 4rem !important;
+  }
+}
+
+.swiper-wrapper {
+  box-sizing: content-box;
+  display: flex;
+  height: 100%;
+  position: relative;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  width: 100%;
+  z-index: 1;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.swiper-autoheight .swiper-wrapper {
+  align-items: flex-start;
+  transition-property: height, -webkit-transform;
+  transition-property: transform, height;
+  transition-property: transform, height, -webkit-transform;
+}
+
+.swiper .swiper-notification {
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  z-index: -1000;
+}
+
+.has-purple-color {
+  color: #54DE62;
+   !important;
+}
+
+.swiper-slide {
+  flex-shrink: 0;
+  height: 100%;
+  position: relative;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  width: 100%;
+}
+
+.swiper-autoheight .swiper-slide {
+  height: auto;
+}
+
+.swiper-fade .swiper-slide {
+  pointer-events: none;
+  transition-property: opacity;
+}
+
+.swiper-fade .swiper-slide-active {
+  pointer-events: auto;
+}
+
+.testimonial-slide__content-wrapper {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.testimonial-slide__image-wrapper {
+  border-radius: 12px;
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+
+.testimonial-slide__image-wrapper:before {
+  content: "";
+  display: block;
+  padding-top: 90%;
+}
+
+.testimonial-slide__content {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  max-width: calc(550px*var(--scale));
+  width: 100%;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.testimonial-slide__image {
+  display: block;
+  height: 100%;
+  left: 0;
+  -o-object-fit: cover;
+  object-fit: cover;
+  position: absolute !important;
+  top: 0;
+  width: 100%;
+}
+
+.block-testimonial__icon {
+  margin-bottom: 24px;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+p {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.testimonial-slide__text {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.testimonial-slide__info {
+  margin-bottom: 20px;
+}
+
+.testimonial-slide__controls {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.testimonial-slide__cs {
+  background: #112e45;
+  border-radius: 12px;
+  font-weight: 700;
+  margin-top: auto;
+  padding: 24px;
+  width: 100%;
+}
+
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+svg {
+  vertical-align: middle;
+}
+
+button {
+  border-radius: 0px;
+  margin: 0px;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  overflow: visible;
+  text-transform: none;
+  appearance: button;
+  transition: color 0.2s ease-in-out 0s, background-color 0.2s ease-in-out 0s, border 0.2s ease-in-out 0s, opacity 0.2s ease-in-out 0s;
+  cursor: pointer;
+}
+
+button {
+  border-radius: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0;
+  text-transform: none;
+  -webkit-appearance: button;
+}
+
+button:not(:disabled) {
+  cursor: pointer;
+}
+
+.wp-front button:not(:disabled) {
+  cursor: pointer;
+}
+
+.testimonial-slide__controls .prev-slide-btn {
+  align-items: center;
+  -webkit-appearance: none;
+  appearance: none;
+  background: #fff;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  font-weight: 400;
+  height: 44px;
+  justify-content: center;
+  transition: background .25s ease;
+  width: 44px;
+}
+
+button:hover,
+button:active {
+  text-decoration: none;
+}
+
+.testimonial-slide__controls .prev-slide-btn:active,
+.testimonial-slide__controls .prev-slide-btn:hover {
+  background: #bbfabb;
+}
+
+.testimonial-slide__controls .next-slide-btn {
+  align-items: center;
+  -webkit-appearance: none;
+  appearance: none;
+  background: #fff;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  font-weight: 400;
+  height: 44px;
+  justify-content: center;
+  transition: background .25s ease;
+  width: 44px;
+  margin-left: 8px;
+}
+
+.testimonial-slide__controls .next-slide-btn:active,
+.testimonial-slide__controls .next-slide-btn:hover {
+  background: #bbfabb;
+}
+
+a {
+  color: rgb(17, 46, 69);
+  text-decoration: none;
+  background-color: transparent;
+  transition: color 0.2s ease-in-out 0s, background-color 0.2s ease-in-out 0s, border 0.2s ease-in-out 0s, opacity 0.2s ease-in-out 0s;
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all .2s ease;
+  transition-delay: 0s;
+}
+
+.btn {
+  align-items: center !important;
+  background: #54de62;
+  border: 1px solid #54de62;
+  border-radius: .75rem;
+  color: #071a2b;
+  display: inline-flex !important;
+  font-size: 1.125rem;
+  font-weight: 700;
+  height: 3.25rem;
+  justify-content: center !important;
+  line-height: 1;
+  padding: 0 1.5rem;
+  text-decoration: none;
+  transition-duration: .25s;
+  transition-property: color, background;
+  transition-timing-function: ease;
+}
+
+.btn.btn-sm {
+  border-radius: .75rem;
+  font-size: 1rem;
+  height: 2.75rem;
+  padding: 0 1rem;
+}
+
+.testimonial-slide__cs .btn {
+  margin-top: 10px;
+}
+
+a:hover {
+  color: rgb(0, 86, 179);
+  text-decoration: underline;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+a:hover {
+  color: #0a58ca;
+  text-decoration: none;
+}
+
+a:active,
+a:hover {
+  color: inherit;
+  outline: none;
+  text-decoration: none;
+}
+
+.btn:active,
+.btn:hover {
+  background: #32d743;
+  border-color: #32d743;
+  box-shadow: none !important;
+  color: #071a2b;
+  text-decoration: none;
+}
+
+[class^="icon-"] {
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: iconfont !important;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: none;
+}
+
+.testimonial-slide__controls .prev-slide-btn i {
+  font-size: 24px;
+}
+
+.icon-chevron-left:before {
+  content: "\E00A";
+}
+
+.testimonial-slide__controls .next-slide-btn i {
+  font-size: 24px;
+}
+
+.icon-chevron-right:before {
+  content: "\E00B";
+}
+
+.snipcss0-3-3-4 {
+  color: #fff;
+}
+
+.snipcss0-7-49-52 {
+  color: #fff;
+}
+
+
+
+/* Feedback section: refersion.com */
+
+
+/* Footer */
